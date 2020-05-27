@@ -1,0 +1,17 @@
+PASSO A PASSO: GIT X GITHUB
+
+1º: Cria um repositorio no GIT
+2º: Faz o clone da aplicção no caminho desejado:
+	Acessa caminho cd C:\ETC..	
+	git clone URL.
+
+*Após adcionar os arquivos na pasta..
+
+3º: Inicie o Git e adicione o repositório.
+	git init
+	git remote add origin git remote https://github.com/milef-dev/projetos-curso-git
+
+5º: Agora é a hora de adicionar os arquivos, "commitar" e "pushar".
+git add .
+git commit -m "meu primeiro commit"
+git push -u origin master
